@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="PhoneSensors.UI.LinearGaugeControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="200">
+    <Viewbox Stretch="Fill" Margin="5">   
+        <Canvas Width="100" Height="1">            
+            <Rectangle x:Name="ValueRectangle" Canvas.Left="50" Width="0" Height="1" Fill="BlueViolet"/>
+            <Rectangle Canvas.Left="49" Width="2" Height="1" Fill="Black"/>
+        </Canvas>
+    </Viewbox>
+</UserControl>
